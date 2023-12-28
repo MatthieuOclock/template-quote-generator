@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+img { 
+  width: 100%;
+}
+body {
+  min-height: 100vh;
+  background-image: url("./circuit-board.svg"); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+#content { 
+  padding: 1rem;
+  background-color: white; 
+  border: solid 1px; 
+  border-radius: 6px;
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box_sitation { 
+  padding-left: 1rem; 
+  padding-right: 1rem;
+}
+
+.double_cote { 
+  max-width: 10%;
+}
+
+.text { 
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 30px;
+}
+.box_sitation{ 
+  display: flex; 
+  flex-direction: row; 
+  align-items: end;
+}
+
+#box_button { 
+  display: flex; 
+  justify-content: space-between;
+}
+
+.button { 
+  max-width: 10%;
+  border: 1px solid black; 
+  border-radius: 6%;
+  box-shadow: 10px 5px gray;
+}
+
+.button:hover{ 
+  cursor: pointer;
+}
+
+.button_right { 
+  color: white;
+  background-color: black;
+}
+
+
