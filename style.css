@@ -41,6 +41,11 @@ body {
   font-family: 'Silkscreen', sans-serif;
   font-size: 30px;
 }
+
+.author { 
+  font-style: italic;
+}
+
 .box_sitation{ 
   display: flex; 
   flex-direction: row; 
